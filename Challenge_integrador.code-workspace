@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../OneDrive/Escritorio/Cursos/CAC-NodeJs-2023/Challenge_integrador"
+		},
+		{
+			"name": "Fullstack2023-NodeJs",
+			"path": "../../../../OneDrive/Escritorio/Cursos/CAC-NodeJs-2023/Challenge_integrador/Fullstack2023-NodeJs"
+		}
+	],
+	"settings": {
+		"terminal.sourceControlRepositoriesKind": "both",
+		"git.autofetch": "all",
+		"git.ignoreLimitWarning": true
+	}
+}
