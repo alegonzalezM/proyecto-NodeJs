@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href=" ../css/estilos_funko.css">
+    
+    <title>Home | Funkoshop</title>
+
+</head>
+<body>
+    <header>
+<nav class="navbar container"> 
+    <picture class="navbar__logo"><a href="./index.html">
+         <img src=" ../img/branding/logo_light_horizontal.svg"  alt="Isologotipo de la marca Funkoshop"></a></picture>
+       <ul class="navbar__menu">
+        <li class="navbar__item with-submenu">
+            <a class="navbar__link with-icon" href=" shop.html">SHOP <iconify-icon icon="tabler:chevron-down"></iconify-icon></a></li>
+            <ul class="submenu">
+                <li class="submenu__item ">
+                    <a href='' class='submenu__link'>Funkos</a></li>
+                <li class="submenu__item">
+                    <a href='' class='submenu__link'>Remeras</a></li>
+                <li class="submenu__item">
+                    <a href='' class='submenu__link'>Llaveros</a></li>
+            </ul></li>
+        
+        <li class="navbar__item"><a class="navbar__link" href="./pages/contact.html">CONTACTO</a></li>
+        <li class="navbar__item"><a class="navbar__link" href="./pages/login.html">LOGIN</a></li>
+        <li class="navbar__item"><a class="navbar__cart" href="./pages/cart.html"><img src="../img/icons/cart-icon.svg" alt="icono de carrito"></a></li>
+       </ul>
+    </nav>
+    </header>  
+<body>
+    <section class="principal container">
+<aside class="aside">
+    <form class="form__finder">
+        <label class="form__label" name="buscar" >BUSCAR</label>
+        <input type="text" class='input__item' name='buscar' placeholder="item o categoria"> 
+        <label class="form__label" name="ordenar">ORDENA POR</label>
+        <select class="input__item">
+            <option value="opcion1">Mayor a menor</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+        <label class="form__label">PRECIO</label>
+        <div class="div__precios"><label class="form__label__number">MIN</label>
+        <input type="number" class='input__item__number'placeholder="0">
+        <label class="form__label__number"> -   MAX</label>
+        <input type="number" class='input__item__number'placeholder="0"></div>
+        <label class="form__label">FILTRAR</label>
+        <input type="checkbox" id="opcion1" name="opciones" value="opcion1">
+        <label for="opcion1">NUEVOS</label><br>
+        <input type="checkbox" id="opcion2" name="opciones" value="opcion2">
+        <label for="opcion2">OFERTA</label><br>
+        <input type="checkbox" id="opcion3" name="opciones" value="opcion3">
+        <label for="opcion3">EDICION ESPECIAL</label><br>
+        <input type="checkbox" id="opcion4" name="opciones" value="opcion4">
+        <label for="opcion4">FAVORITOS</label><br>
+    </form>
+</aside>
+<section class="slider container">
+<h2 class="slider__title">ULTIMOS LANZAMIENTOS</h2>
+<ul class="slider__items" class="card-item__cover">
+    <li class="slider__item">
+        <article class="card-item">
+            <a class="card-item__link" href="">
+        <picture class="card-item__cover">
+            <span class="card-item__tag">NUEVO</span>
+            <img class="card-item__img--front" src="../img/star-wars/trooper-1.webp" alt="Tropper">
+            <img class="card-item__img--back" src="../img/star-wars/trooper-box.webp" alt="Tropper en caja">
+        </picture>
+        <div class="card-item__content">
+            <p class="card-item__licence">STAR WARS</p>
+            <h4 class="card-item__name">STORMTROOPER LIGHTSABER</h4>
+            <p class="card-item__price">$179.99-</p> 
+            <p class="card-item__promo">3 cuotas sin interés</p>
+        </div>
+    </a></article>
+</li>
+    <li class="slider__item">
+        <article  class="card-item">
+        <a class="card-item__link" href="">
+            <picture class="card-item__cover">
+                <span class="card-item__tag">NUEVO</span>
+                <img class="card-item__img--front" src="../img/pokemon/pidgeotto-1.webp" alt="Pidgeotto">
+                <img class="card-item__img--back" src="../img/pokemon/pidgeotto-box.webp" alt="Pidgeotto en caja">
+            </picture>
+            <div class="card-item__content">
+                <p class="card-item__licence">POKEMON</p>
+                <h4 class="card-item__name">PIDGEOTTO</h4>
+                <p class="card-item__price">$179.99-</p>
+                <p class="card-item__promo">3 cuotas sin interés</p>
+            </div>
+        </a> 
+    </article></li>
+    <li class="slider__item">
+        <article  class="card-item">
+        <a class="card-item__link" href="">
+        <picture class="card-item__cover"> 
+        <span class="card-item__tag">NUEVO</span>
+            <img class="card-item__img--front" src="../img/harry-potter/luna-1.webp" alt="Luna">
+            <img class="card-item__img--back" src="../img/harry-potter/luna-box.webp" alt="Luna en caja">
+        </picture>
+        <div class="card-item__content">
+            <p class="card-item__licence">HARRY POTTER</p>
+            <h4 class="card-item__name">LUNA LOVEGOOD LION MASK</h4>
+            <p class="card-item__price">$179.99-</p>
+            <p class="card-item__promo">3 cuotas sin interés</p>
+        </div>
+    </a></article>
+</li>
+</ul>
+
+
+</section>
+</section>
+</body>
+    <footer class="footer">
+        <nav class="navbar container">
+            <ul class="navbar__items">
+            <li class="navbar__item"><a class="navbar__link" href="/pages/shop.html">SHOP</a></li>
+            <li class="navbar__item"><a class="navbar__link" href="/pages/login.html">INGRESAR</a></li>
+            <li class="navbar__item"><a class="navbar__link" href="/pages/contact.html">CONTACTO</a></li>
+        </ul>
+    <picture><img src='../img/branding/isotype.svg' alt='Isotipo Funkoshop' ></picture>
+    </nav>
+    <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>   
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </body>
+    </html>
