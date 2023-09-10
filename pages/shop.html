@@ -36,9 +36,32 @@
     </nav>
     </header>  
 <body>
-<aside>
-
-
+    <section class="principal container">
+<aside class="aside">
+    <form class="form__finder">
+        <label class="form__label" name="buscar" >BUSCAR</label>
+        <input type="text" class='input__item' name='buscar' placeholder="item o categoria"> 
+        <label class="form__label" name="ordenar">ORDENA POR</label>
+        <select class="input__item">
+            <option value="opcion1">Mayor a menor</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+        <label class="form__label">PRECIO</label>
+        <div class="div__precios"><label class="form__label__number">MIN</label>
+        <input type="number" class='input__item__number'placeholder="0">
+        <label class="form__label__number"> -   MAX</label>
+        <input type="number" class='input__item__number'placeholder="0"></div>
+        <label class="form__label">FILTRAR</label>
+        <input type="checkbox" id="opcion1" name="opciones" value="opcion1">
+        <label for="opcion1">NUEVOS</label><br>
+        <input type="checkbox" id="opcion2" name="opciones" value="opcion2">
+        <label for="opcion2">OFERTA</label><br>
+        <input type="checkbox" id="opcion3" name="opciones" value="opcion3">
+        <label for="opcion3">EDICION ESPECIAL</label><br>
+        <input type="checkbox" id="opcion4" name="opciones" value="opcion4">
+        <label for="opcion4">FAVORITOS</label><br>
+    </form>
 </aside>
 <section class="slider container">
 <h2 class="slider__title">ULTIMOS LANZAMIENTOS</h2>
@@ -94,6 +117,7 @@
 </ul>
 
 
+</section>
 </section>
 </body>
     <footer class="footer">
