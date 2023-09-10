@@ -268,10 +268,10 @@ filter: brightness(90%);
 .card-item__img--back{
     display: none;
 }
-.car-item__cover:hover .card-item__img--back{
+.card-item__cover:hover .card-item__img--back{
     display: block;
 }
-.car-item__cover:hover .card-item__img--front{
+.card-item__cover:hover .card-item__img--front{
     display: none;
 }
 .card-item__content{
@@ -300,6 +300,7 @@ filter: brightness(90%);
 /*FOOTER*/
 .footer{
     background-color:var(--dark-bg-solid) ;
+    color: var(--light-font-solid);
     padding: var(--spacing-68);
 
 }
