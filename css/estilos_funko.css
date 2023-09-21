@@ -1,4 +1,8 @@
  
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway:wght@500&family=Roboto&display=swap" rel="stylesheet");
+  @import url("https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css");
+  @import url("https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css");
+  
  /*normalizacion de estilos*/
  :root{    /*aca van las variables*/
     /*Palette*/
@@ -46,6 +50,9 @@
     --spacing-8: 0.8rem;
 
  }
+
+ 
+ /* ---------------NORMALIZACION---------------- */
  *, *::after, *::before{
     margin:0;
     padding:0;
@@ -230,17 +237,10 @@ filter: brightness(90%);
     gap: var(--spacing-36); 
     margin: var(--spacing-68) auto;
 }
-.slider__items{
-    display: flex;
-}
 .slider__title{
     font-family: var(--alternative-font);
     font-size: var(--font-display);
     text-transform: uppercase;
-}
-.slider__items{
-    display: flex;
-    gap: var(--spacing-24);
 }
 .card-item__cover{
     display: flex;  /*p q el tamaño de la caja no cambie durante la animacion*/
@@ -292,6 +292,12 @@ filter: brightness(90%);
     font-weight: 700;
     color:var(--secondary-solid)
 }
+.glide__arrow_left{
+    left:0;
+}
+.glide__arrow_right {
+    right:0;
+}
 /*FOOTER----------------------------------------------------*/
 .footer{
     background-color:var(--dark-bg-solid) ;
@@ -302,6 +308,12 @@ filter: brightness(90%);
 .footer__copy{
     margin-top: var(--spacing-36);
     text-align: center;
+}
+/* ----------------------------- */
+iconify-icon{
+    color:var(--dark-bg-solid);
+    font-size: var(--font-small);
+    font-weight: 700;
 }
 /*ANIMATIONS*/
 @keyframes fade{
@@ -397,7 +409,7 @@ padding-top: var(--spacing-8);
 .avance{
     color:#DFE3E8;
 }
-.show-item{
+.item {
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -433,9 +445,9 @@ padding-top: var(--spacing-8);
     height: var(--spacing-20);
     cursor: pointer;
 }
-.input-cantidad{
+.item__cuantity{
     width: 105px;
-    height:
+    /* height: */
 }
 .custom-number-input input {
     text-align: center;
