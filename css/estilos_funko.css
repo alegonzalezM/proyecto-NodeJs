@@ -436,18 +436,32 @@ padding-top: var(--spacing-8);
 .add__cart{
     display: flex;
     align-items: center;
+    gap: var(--spacing-8);
+    padding: var(--spacing-8);
+
 }
 .add__cart button {
     background-color:var(--dark-bg-solid);
     color: var(--light-font-solid);
     border: none;
-    width: var(--spacing-20);
-    height: var(--spacing-20);
+    width: var(--spacing-16);
+    height: var(--spacing-16);
     cursor: pointer;
 }
-.item__cuantity{
+.item__quantity{
     width: 105px;
     /* height: */
+}
+.item__input{
+    width: var(--spacing-68);
+    text-align: right;
+    height: var(--spacing-16);
+  
+}
+.add__cart .item__submit{
+    width:var(--spacing-128);
+    background-color: var(--primary-solid);
+
 }
 .custom-number-input input {
     text-align: center;
