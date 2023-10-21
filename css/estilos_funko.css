@@ -438,6 +438,8 @@ padding-top: var(--spacing-8);
     align-items: center;
     gap: var(--spacing-8);
     padding: var(--spacing-8);
+    height:500px;
+
 
 }
 .add__cart button {
@@ -454,12 +456,13 @@ padding-top: var(--spacing-8);
 }
 .item__input{
     width: var(--spacing-68);
-    text-align: right;
-    height: var(--spacing-16);
+    /* align-content: center; */
+
   
 }
 .add__cart .item__submit{
     width:var(--spacing-128);
+
     background-color: var(--primary-solid);
 
 }
