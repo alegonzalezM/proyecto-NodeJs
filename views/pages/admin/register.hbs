@@ -1,0 +1,49 @@
+ <header>
+        <nav class="navbar container"> 
+            <picture class="navbar__logo"><a href="/">
+                <img src="../../img/branding/logo_light_horizontal.svg"  alt="Isologotipo de la marca Funkoshop"></a></picture>
+                <ul class="navbar__menu">
+                    <li class="navbar__item"><a class="navbar__link" href="shop">VER TIENDA</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="login">ADMIN</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#">SALIR</a></li>
+                </ul>
+        </nav>
+    </header>  
+    <main>
+        <section class="container register__container">
+            <h1 class="tbl__title">CREA TU CUENTA</h1>
+            <p>Completa el formulario para ser parte del mundo de los Funkos</p>
+            <form class="form__register" method="POST" action="formulario">
+            <label for="nombre" class="label__create__item">Nombre:</label>
+            <input type="text" class="input__create" name="nombre" required placeholder="John">
+            <label for="apellido" class="label__create__item">Apellido:</label>
+            <input type="text" class="input__create" name="nombre" required placeholder="Doe">
+            <label for="email" class="label__create__item">Email:</label>
+            <input type="pass" class="input__create" name="pass" required placeholder="johndoe@correo.com">
+            <label for="pass" class="label__create__item">Contraseña:</label>
+            <input type="pass" class="input__create" name="pass" required placeholder="*******">
+            <label for="rpt-pass" class="label__create__item">Repita contraseña:</label>
+            <input type="pass" class="input__create" name="rpt-pass" required placeholder="******">
+            <input type="submit" class="btn-form" value="Registrar">
+            <label class="register__label"><input  type ="checkbox">Acepto <a href="#" class="link__terms">téminos y condiciones</label></a>
+            </form>
+     
+                
+          
+            
+        </section>
+    </main>
+<footer class="footer">
+    <nav class="navbar container">
+        <ul class="navbar__items">
+            <li class="navbar__item"><a class="navbar__link" href="shop">SHOP</a></li>
+            <li class="navbar__item"><a class="navbar__link" href="register">REGISTRARSE</a></li>
+            <li class="navbar__item"><a class="navbar__link" href="login">INGRESAR</a></li>
+            <li class="navbar__item"><a class="navbar__link" href="#">CONTACTO</a></li>
+        </ul>
+        <picture><img src='../../img/branding/isotype.svg' alt='Isotipo Funkoshop' ></picture>
+    </nav>
+    <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
+</footer>   
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="../../javascripts/scripts.js"></script>
